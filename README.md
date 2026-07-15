@@ -61,60 +61,17 @@ In today’s API-first digital ecosystem, organizations are challenged with an e
 
 ## Roadmap
 
-![APIs view in Azure API Center](media/roadmap/roadmap01232025.png)
+**FY27 Q1**
+1. Assessments for plugins
+
+**FY27 Q2**
+1. Unified portal across APIM/APIC: One harmonized portal across API platform
+2. Private link for APIC data plane: Keeps all traffic to the API Center portal and dataplane entirely within your private network via private endpoints, ensuring catalog access and API interactions never traverse the public internet. This meets strict compliance requirements and reduces the attack surface for sensitive enterprise AI workloads.
+
+**FY27 Q3**
+1. Restrict access to specific APIs/AI assets based on user/group configuration: Control who can view, register, and manage catalog assets through fine-grained role-based access control (RBAC) powered by Microsoft Entra ID, assignable at the resource, API, or environment level. This enforces least-privilege access — ensuring developers see only relevant assets while administrators retain full governance over the catalog.
 
 > :memo: **Note**: Please note that this roadmap is a living document and may be updated as priorities shift and new information becomes available. We appreciate your understanding and flexibility as we strive to deliver the best possible outcomes
-
-## Now
-- <ins>**Inventory**</ins>
-    - [x] :white_check_mark: **GitHub Actions support**: Released.
-    - [x] :white_check_mark: **APIM / APIC Integration**: Public Preview.
-    - [x] :white_check_mark: **Integration with AWS**: Public Preview.
-    - [ ] **Multiple spec support**: Research phase.
-    - [ ] **Azure Functions Integration**: Research phase.
-- <ins>**Governance**</ins>
-    - [x] :white_check_mark: **Increase linting limit for Standard**: Released.
-    - [x] :white_check_mark: **Execution History - API details**: Released.
-    - [x] :white_check_mark: **VS Code - GitHub Copilot for Azure Integration**: Released.
-    - [x] :white_check_mark: **Managed API Analysis**: Public Preview.
-    - [x] :white_check_mark: **API Analysis Dashboard**: Public Preview. 
-    - [ ] **Managed Linting - AsyncAPI support**: In Development.
-    - [ ] **Support for multiple linting rules -  API Governance Profiles**: In Development.
-
-- <ins>**Discover & Consume**</ins>
-    - [ ] **Managed APIC Portal**: In Development.
-    - [ ] **API Visibility in APIC Portal**: Research phase.
-
-## Next
-- <ins>**Inventory**</ins>
-    - [ ] API Access Management (APIM Only)
-    - [ ] Deployment Support APIC to APIM
-    - [ ] Integration with Apigee
-    - [ ] Integration with Azure App Service
-- <ins>**Governance**</ins>
-    - [ ] Download API Analysis Report
-    - [ ] Inventory Analysis & AI-Powered API Duplicate Detection 
-    - [ ] API Drift Detection
-    - [ ] Breaking Change Detection
-    - [ ] Governance Recommendation Engine
-- <ins>**Discover & Consume**</ins>
-    - [ ] Semantic Search Support
-    - [ ] Filtering and searching based on metadata in APIC Portal
-    - [ ] API Grouping and Granting Access
-    - [ ] APIC Portal Chatbot
-
-## Future
-- <ins>**Inventory**</ins>
-    - [ ] Integration Mulesoft
-    - [ ] Integration Source control: GitHub repository
-    - [ ] Integration Source control: Azure DevOps
-- <ins>**Governance**</ins>
-    - [ ] API dependencies
-    - [ ] Usage monitoring
-- <ins>**Discover & Consume**</ins>
-    - [ ] WordPress Plugin
-    - [ ] Backstage Plugin
-
 
 ## How to provide feedback
 
